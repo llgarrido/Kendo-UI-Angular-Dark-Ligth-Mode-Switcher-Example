@@ -32,6 +32,7 @@
     "@progress/kendo-angular-label": "^3.0.0",
     "@progress/kendo-angular-pdf-export": "^3.0.0",
     "@progress/kendo-angular-popup": "^4.0.0",
+    "@progress/kendo-angular-ripple": "^3.0.1",
     "@progress/kendo-angular-treeview": "^5.0.0",
     "@progress/kendo-data-query": "^1.0.0",
     "@progress/kendo-drawing": "^1.0.0",
