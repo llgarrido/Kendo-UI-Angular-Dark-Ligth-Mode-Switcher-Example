@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'Kendo-UI-Angular-Dark-Ligth-Mode-Switcher-Example'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Kendo-UI-Angular-Dark-Ligth-Mode-Switcher-Example');
   });
 
   it('should render title', () => {
