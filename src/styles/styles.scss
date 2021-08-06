@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.theme-alternate {
+  background-color: #ffffff;
+  color: #000000;
+}
