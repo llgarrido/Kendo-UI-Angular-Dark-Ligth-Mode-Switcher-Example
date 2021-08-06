@@ -31,10 +31,17 @@
               "src/assets"
             ],
             "styles": [
+              "src/styles/styles.scss",
               {
-                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+                "inject": false,
+                "input": "src/styles/kendoui-theme-dark.scss",
+                "bundleName": "kendoui-dark"
               },
-              "src/styles.scss"
+              {
+                "inject": false,
+                "input": "src/styles/kendoui-theme-light.scss",
+                "bundleName": "kendoui-light"
+              }
             ],
             "scripts": []
           },
@@ -97,10 +104,18 @@
               "src/assets"
             ],
             "styles": [
+              "src/styles/styles.scss",
+              "src/styles/sisgarbe-material-theme.scss",
               {
-                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+                "inject": false,
+                "input": "src/styles/sisgarbe-kendoui-theme-dark.scss",
+                "bundleName": "kendoui-dark"
               },
-              "src/styles.scss"
+              {
+                "inject": false,
+                "input": "src/styles/sisgarbe-kendoui-theme-light.scss",
+                "bundleName": "kendoui-light"
+              }
             ],
             "scripts": []
           }
